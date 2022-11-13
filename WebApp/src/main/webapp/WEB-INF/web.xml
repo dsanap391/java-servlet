@@ -9,4 +9,13 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+  <servlet-name>MyHttpServlet</servlet-name>
+  <servlet-class>com.ds.HttpServletExample</servlet-class> <!-- Full classfied name -->
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>MyHttpServlet</servlet-name>
+  <url-pattern>/welcome</url-pattern>
+  </servlet-mapping>
 </web-app>
